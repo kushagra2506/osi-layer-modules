@@ -20,5 +20,5 @@ def insertion_attack(target_ip):
     print(f"[+] Sent overlapping fragments to {target_ip} (IDS sees insertion).")
 
 if __name__ == "__main__":
-    target = "192.168.1.50"   # Replace with victim IP in your lab
+    target = input("Enter Target: ")   # Replace with victim IP in your lab
     insertion_attack(target)

