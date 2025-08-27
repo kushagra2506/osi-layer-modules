@@ -20,10 +20,3 @@ The OSI model layers covered in this project:
 - Educational examples suitable for beginners and intermediate learners.
 - Modular design to explore layers independently.
 
----
-
-## Installation
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/osi-layer-project.git
-cd osi-layer-project
